@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Assignment03</string>
+
+<!--place name-->
+    <string name="subj_01">Phuket</string>
+    <string name="subj_02">Bangkok</string>
+    <string name="subj_03">Krabi</string>
+    <string name="subj_04">Phi Phi</string>
+    <string name="subj_05">City</string>
+    <string name="subj_06">Pattaya</string>
+    <string name="subj_07">Phuket</string>
+    <string name="subj_08">Bangkok</string>
+    <string name="subj_09">Krabi</string>
+    <string name="subj_10">Phi Phi</string>
+    <string name="subj_11">City</string>
+    <string name="subj_12">Pattaya</string>
+    <string name="subj_13">Phuket</string>
+    <string name="subj_14">Bangkok</string>
+    <string name="subj_15">Krabi</string>
+    <string name="subj_16">Phi Phi</string>
+    <string name="subj_17">City</string>
+    <string name="subj_18">Pattaya</string>
+    <string name="subj_19">Phuket</string>
+    <string name="subj_20">Bangkok</string>
+    <string name="subj_21">Krabi</string>
+    <string name="subj_22">Phi Phi</string>
+    <string name="subj_23">City</string>
+    <string name="subj_24">Pattaya</string>
+    <string name="subj_25">Phuket</string>
+    <string name="subj_26">Bangkok</string>
+    <string name="subj_27">Krabi</string>
+    <string name="subj_28">Phi Phi</string>
+    <string name="subj_29">City</string>
+    <string name="subj_30">Pattaya</string>
+
+<!--place desc-->
+
+    <string name="desc_01">Admire the surrounding with powdery sand, and the blue waters of Maya Bay, featured in the movie “The Beach.”</string>
+    <string name="desc_02">Get amazed by the \'City of Angels\', Bangkok and experience its vibrant streets, floating markets and many more</string>
+    <string name="desc_03">Visit Patong Beach with its international standard nightclubs, street performances, games, live music and so much more.</string>
+    <string name="desc_04">Phi Phi Island Tour from Phuket - Phi Phi island with lunch by Big Boat/Ferry on a Private basis</string>
+    <string name="desc_05">Explore the natural wonders along with lush greenery during your journey to Krabi islands.</string>
+    <string name="desc_06">Witness Thailand\'s culture and traditions while witnessing Bangkok\'s famous landmarks as you cruise through Chao Phraya River.</string>
+    <string name="desc_07">The Thrill of Travel awaits here! Visit the popular Coral Island through speedboat and feel the relaxing waves of peace in the lap of nature.</string>
+    <string name="desc_08">Dive in to the vibrant culture of Bangkok through the city tour and love the visits to Mahaputtaram temple, Golden Buddha, Gems Gallery etc.</string>
+    <string name="desc_09">Visit Patong Beach with its international standard nightclubs, street performances, games, live music and so much more.</string>
+    <string name="desc_10">The last day of yours will be filled with excitement and fun as we have Safari world visit planned for you, the must-visit place for EVERYONE!</string>
+    <string name="desc_11">Get a thrilling safari drive through the picturesque African wilderness setting in Thailand\'s greatest open zoo, Safari World.</string>
+    <string name="desc_12">Dive into the adventure water sports on the Coral Island Tour and feel the thrill deep within your bones.</string>
+    <string name="desc_13">Admire the surrounding with powdery sand, and the blue waters of Maya Bay, featured in the movie “The Beach.”</string>
+    <string name="desc_14">Get amazed by the \'City of Angels\', Bangkok and experience its vibrant streets, floating markets and many more</string>
+    <string name="desc_15">Visit Patong Beach with its international standard nightclubs, street performances, games, live music and so much more.</string>
+    <string name="desc_16">Phi Phi Island Tour from Phuket - Phi Phi island with lunch by Big Boat/Ferry on a Private basis</string>
+    <string name="desc_17">Explore the natural wonders along with lush greenery during your journey to Krabi islands.</string>
+    <string name="desc_18">Witness Thailand\'s culture and traditions while witnessing Bangkok\'s famous landmarks as you cruise through Chao Phraya River.</string>
+    <string name="desc_19">The Thrill of Travel awaits here! Visit the popular Coral Island through speedboat and feel the relaxing waves of peace in the lap of nature.</string>
+    <string name="desc_20">Dive in to the vibrant culture of Bangkok through the city tour and love the visits to Mahaputtaram temple, Golden Buddha, Gems Gallery etc.</string>
+    <string name="desc_21">Visit Patong Beach with its international standard nightclubs, street performances, games, live music and so much more.</string>
+    <string name="desc_22">The last day of yours will be filled with excitement and fun as we have Safari world visit planned for you, the must-visit place for EVERYONE!</string>
+    <string name="desc_23">Get a thrilling safari drive through the picturesque African wilderness setting in Thailand\'s greatest open zoo, Safari World.</string>
+    <string name="desc_24">Dive into the adventure water sports on the Coral Island Tour and feel the thrill deep within your bones.</string>
+    <string name="desc_25">Admire the surrounding with powdery sand, and the blue waters of Maya Bay, featured in the movie “The Beach.”</string>
+    <string name="desc_26">Get amazed by the \'City of Angels\', Bangkok and experience its vibrant streets, floating markets and many more</string>
+    <string name="desc_27">Visit Patong Beach with its international standard nightclubs, street performances, games, live music and so much more.</string>
+    <string name="desc_28">Phi Phi Island Tour from Phuket - Phi Phi island with lunch by Big Boat/Ferry on a Private basis</string>
+    <string name="desc_29">Explore the natural wonders along with lush greenery during your journey to Krabi islands.</string>
+    <string name="desc_30">Witness Thailand\'s culture and traditions while witnessing Bangkok\'s famous landmarks as you cruise through Chao Phraya River.</string>
+
+</resources>
