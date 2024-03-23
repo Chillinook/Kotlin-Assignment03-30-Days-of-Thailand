@@ -44,6 +44,11 @@ import com.example.assignment03.ui.theme.Poppins
 import java.nio.channels.AcceptPendingException
 import kotlin.math.exp
 
+//Name: Sutham Hengsuwan
+//ID : 445868
+//SODV 3203
+//24JANMNTR2
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -62,30 +67,8 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun texDesc(
-    thai: Thai ,
-    num: Int,
-    expanded: Boolean )
-{
-//    var expanded by remember { mutableStateOf(true) }
-    if (expanded) {
-        Row (
-        ){
-            Text(
-                text = stringResource(id = thai.desc),
-                modifier = Modifier
-                    .padding(start = 26.dp, top = 6.dp)
-
-            )
-        }
-
-    }
-}
-
-@Composable
 fun Assignment03(name: String, modifier: Modifier = Modifier) {
     Column(
-
     ) {
         Text(
             text = "30 Days of Thailand place",
