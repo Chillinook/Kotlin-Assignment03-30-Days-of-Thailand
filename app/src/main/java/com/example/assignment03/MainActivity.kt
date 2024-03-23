@@ -87,26 +87,20 @@ fun Assignment03(name: String, modifier: Modifier = Modifier) {
     Column(
 
     ) {
-        var expanded by remember { mutableStateOf(false) }
-        var texNum by remember { mutableStateOf(0) }
-
-        var selectedIndex by remember { mutableStateOf(0) }
-        val onItemClick = { index: Int -> selectedIndex = index }
-
         Text(
             text = "30 Days of Thailand place",
             fontFamily = Poppins,
             fontSize = 24.sp,
             modifier = modifier
                 .padding( top = 10.dp , start =  10.dp)
-//                .clickable {  expanded = ! expanded }
         )
         LazyColumn{
             items( thais){
-                 Card(
+                var expanded2 by remember { mutableStateOf(false) }
+                Card(
                     modifier = Modifier
                         .padding(start = 12.dp, end = 12.dp, bottom = 10.dp)
-                        .clickable { expanded = !expanded  }
+                        .clickable { expanded2 = !expanded2  }
                         .animateContentSize(
                             spring(
                                 dampingRatio = Spring.DampingRatioNoBouncy,
@@ -114,7 +108,6 @@ fun Assignment03(name: String, modifier: Modifier = Modifier) {
                             )
                         )
                 ){
-//                    texNum = it.desc
                     Text(text = "Day"+ " " + it.num , Modifier.padding( start = 26.dp , top = 6.dp))
                     Text(
                         text = stringResource(id = it.subj ), Modifier.padding( start = 26.dp , top = 6.dp))
@@ -130,20 +123,12 @@ fun Assignment03(name: String, modifier: Modifier = Modifier) {
                             contentDescription = null,
                         )
                     }
-                     texDesc(
-                         it,
-                         texNum,
-                         expanded
+                     if (expanded2)
+                     Text(
+                         text = stringResource(id = it.desc), Modifier.padding( start = 26.dp , top = 6.dp)
                      )
-//                     if (expanded)
-//                     Text(
-//                         text = stringResource(id = it.desc), Modifier.padding( start = 26.dp , top = 6.dp)
-//
-//                     )
-
                 }
             }
         }
     }
-
 }
