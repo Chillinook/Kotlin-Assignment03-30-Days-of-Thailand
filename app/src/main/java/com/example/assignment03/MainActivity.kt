@@ -19,6 +19,8 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Card
+import androidx.compose.material3.CardColors
+import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -72,7 +74,7 @@ fun Assignment03(name: String, modifier: Modifier = Modifier) {
     ) {
         Text(
             text = "30 Days of Thailand place",
-            fontFamily = Poppins,
+            style = MaterialTheme.typography.bodyLarge,
             fontSize = 24.sp,
             modifier = modifier
                 .padding( top = 10.dp , start =  10.dp)
@@ -81,9 +83,10 @@ fun Assignment03(name: String, modifier: Modifier = Modifier) {
             items( thais){
                 var expanded2 by remember { mutableStateOf(false) }
                 Card(
+                    colors = CardDefaults.cardColors( containerColor = MaterialTheme.colorScheme.primary),
                     modifier = Modifier
                         .padding(start = 12.dp, end = 12.dp, bottom = 10.dp)
-                        .clickable { expanded2 = !expanded2  }
+                        .clickable { expanded2 = !expanded2 }
                         .animateContentSize(
                             spring(
                                 dampingRatio = Spring.DampingRatioNoBouncy,
